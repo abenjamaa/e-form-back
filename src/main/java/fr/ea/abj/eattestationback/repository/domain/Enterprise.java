@@ -2,6 +2,9 @@ package fr.ea.abj.eattestationback.repository.domain;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import org.hibernate.annotations.CreationTimestamp;
+
+import java.time.LocalDateTime;
 
 @Data
 @Entity
@@ -22,5 +25,8 @@ public class Enterprise {
     private Boolean iso9001;
     @Column(name = "iso_45001")
     private Boolean iso45001;
+    @Column(name = "creation_date")
+    @CreationTimestamp
+    private LocalDateTime creationDate;
 
 }

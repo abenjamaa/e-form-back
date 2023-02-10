@@ -1,0 +1,1 @@
+INSERT INTO e_attestation (siret, enterprise, iso_27001, iso_9001, iso_45001) VALUES ('12345678912345', 'test-aymen', true, true, false);

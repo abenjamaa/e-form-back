@@ -1,5 +1,10 @@
 # e-Attestation-back
 
+## Prérquis
+```
+Java 17
+Apache Maven 3.6.3
+```
 ## Base de données
 il faut créer une base de donnée avec ces information :
 
